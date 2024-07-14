@@ -1,6 +1,6 @@
 import mongoose, { model, Schema, Model, Document } from 'mongoose';
 
-interface Message extends Document {
+export interface Message extends Document {
     message: string
     date : Date
 }
